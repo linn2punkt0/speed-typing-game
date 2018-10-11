@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+nav {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: solid 1px white;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.gameContainer {
+  width: 70vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
